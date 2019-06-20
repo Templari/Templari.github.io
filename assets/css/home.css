@@ -4,26 +4,33 @@ body {
 
 main {
 	padding: 2em;
-	background-color: black;
 	color: greenyellow;
 }
 
 .participants {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 	margin: 1em;
 }
 
 .participants .item {
+	min-width: 160px;
 	display: flex;
 	flex-direction: column;
 	margin-right: 1em;
+	margin-bottom: 1em;
 	text-align: center;
 }
 .participants .item:last-child {
 	margin-right: 0;
+	margin-bottom: 0;
 }
 
 .participants .item img {
+	width: 120px;
+	margin: 0 auto;
 	border-radius: 50%;
 }
 
