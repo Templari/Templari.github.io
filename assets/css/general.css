@@ -3,41 +3,41 @@
 /*@import url('https://fonts.googleapis.com/css?family=Stalinist+One&display=swap');*/
 
 html {
-	/*font-family: 'Share Tech Mono', monospace;*/
-	/*font-family: 'Raleway Dots', cursive;*/
-	font-family: 'Raleway', sans-serif;
-	/*font-family: 'Stalinist One', cursive;*/
-	font-size: 18px;
+  /*font-family: 'Share Tech Mono', monospace;*/
+  /*font-family: 'Raleway Dots', cursive;*/
+  font-family: 'Raleway', sans-serif;
+  /*font-family: 'Stalinist One', cursive;*/
+  font-size: 18px;
 }
 
 img { max-width: 100%; }
 
 .mcontainer {
-	width: 95%;
-	margin-left: auto;
-	margin-right: auto;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media(min-width: 460px) {
-	.mcontainer {
-		width: 90%;
-	}
+  .mcontainer {
+    width: 90%;
+  }
 }
 
 @media(min-width: 540px) {
-	.mcontainer {
-		width: 85%;
-	}
+  .mcontainer {
+      width: 85%;
+  }
 }
 
 @media(min-width: 720px) {
-	.mcontainer {
-		width: 80%;
-	}
+  .mcontainer {
+    width: 80%;
+  }
 }
 
 @media(min-width: 1000px) {
-	.mcontainer {
-		width: 75%;
-	}
+  .mcontainer {
+      width: 75%;
+  }
 }
