@@ -1,10 +1,14 @@
 body {
-	background-image: url("../img/matrix.gif");
+	/*background-image: url("../img/matrix.gif");*/
+	background-image: url("../img/blur.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 main {
 	padding: 2em;
-	color: greenyellow;
+	/*color: greenyellow;*/
+	color: whitesmoke;
 }
 
 .participants {
@@ -13,6 +17,12 @@ main {
 	justify-content: center;
 	align-items: center;
 	margin: 1em;
+	padding: 1em;
+	background: rgba(255,255,255,.3);
+	/*border: 2px solid;*/
+	border-radius: 12px;
+	border-color: rgba(255,255,255,0.3);
+	box-shadow: 0px 0px 40px 0px #ccc;
 }
 
 .participants .item {
@@ -38,4 +48,6 @@ main {
 	display: block;
 	margin-top: 1em;
 	font-weight: 600;
+	text-decoration: none;
+	color: white;
 }
